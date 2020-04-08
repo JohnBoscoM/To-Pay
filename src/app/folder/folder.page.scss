@@ -30,3 +30,19 @@ ion-menu-button {
 ion-content ion-toolbar {
   --background: transparent;
 }
+
+.flex-container{
+  display:flex; 
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.fab-btn-position{
+display: flex;
+flex-direction: row-reverse;
+justify-content: start;
+margin-top:40px; 
+margin-right: 25px;
+}
+.payed-btn{
+  background-color: rgb(49, 219, 49);
+}

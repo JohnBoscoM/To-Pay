@@ -13,9 +13,124 @@
       <ion-title size="large">{{ folder }}</ion-title>
     </ion-toolbar>
   </ion-header>
+  <div class="flex-container">
+    <!-- List of Sliding Items -->
+<ion-list>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Mom</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>IKEA - Säng Brimnes</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Zalando - Nike Air Force </ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>CDON - LG Nanocell 65SM8500 TV </ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Hyra</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>El</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Telia - Nätverk</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Spotify</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Unionen A-kassa </ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option style="background-color: rgb(255, 57, 57);" (click)="unread(item)">Delete</ion-item-option>
+    </ion-item-options>
+    <ion-item-options side="start">
+      <ion-item-option style="background-color: rgb(49, 219, 49);" (click)="unread(item)">Payed</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+ 
+</ion-list>
+    <!-- <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p> -->
   </div>
+  <div class="fab-btn-position">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </div>
+ 
 </ion-content>
